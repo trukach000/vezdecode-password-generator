@@ -26,7 +26,7 @@ func main() {
 	action := flag.Arg(0)
 
 	if action == "" {
-		println("You should specify the action that you want: [GENERATE], [CHECK]")
+		fmt.Println("You should specify the action that you want: [GENERATE], [CHECK]")
 		os.Exit(1)
 	}
 
